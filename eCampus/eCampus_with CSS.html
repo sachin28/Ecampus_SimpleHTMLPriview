@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<!--Just to show the Demo of CSS-->
+<!--External CSS(Can be internal by using style tag in head or inline by using style tag in any tag)-->
+<!--SACHIN SHUKLA-->
+
+<html>
+
+	<head>
+		<title> eCampus</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+     	<style>
+    		 h1{text-indent: 440px;}</style>
+     	<script type="text/javascript">
+		var pic1 = new Image()
+		pic1.src = "eCampus.png"
+		var pic2 = new Image()
+		pic2.src = "tower.jpg"
+		var pic3 = new Image()
+		pic3.src = "ec.jpg"
+     </script>
+
+    </head>
+
+<body>
+
+
+	<div >
+		<div id="header">
+
+			<img src="sjsu.png" width="200" height="50" alt="logo" align="left"/>
+
+		</div>
+
+
+		<h1><font color="gold">eCampus</font></h1>		
+        <div align="right">
+
+					<a href="https://www.sjsu.edu/at/ec/support/">
+						<img src="contact.png" width="70" height="15">
+						
+					</a>
+					
+				
+
+				</div>
+		
+		<hr/>
+
+		<div id="header">
+
+	
+		<p><img src="eCampus.png" width="500" height="300" name="slide" align-"middle"/></p>
+		<script type="text/javascript">
+
+        var count=1;
+
+        function images()
+        {
+            document.images.slide.src = eval("pic"+count+".src");
+            
+            if(count<3)
+                count++;
+
+            else
+                count=1;
+
+            setTimeout("images()",3100);
+        }
+        images();
+
+    </script>
+
+		</div>
+		
+
+		<div id="content">
+			<div>
+				<h3><u>About eCampus</u></h4>
+			</div>
+				<div>
+				<p>The mission of eCampus is to advance the effective use of current and emerging technologies to cultivate excellence in teaching and to foster significant student learning.  eCampus envisions and promotes a pervasive learning environment where opportunities for acquiring and accessing knowledge as well as participating in a community of scholarship are ever present.</p>
+
+				<div align="left">
+					<ul>
+						<li><u><b>Teaching Tools</b></u></li>
+					</ul>
+
+					<ol>
+						<li><a href="https://turnitin.com/">Turn it In</a></li>
+						<li><a href="https://canvas.instructure.com/">Canvas</a></li>
+						<li><a href="https://www.webex.com/">Webex</a></li>
+						
+					</ol>
+
+				</div>
+				
+
+				</div>
+
+			<br/> 
+
+			<a href="http://www.sjsu.edu/at/ec/"> Cick here to know more. </a>
+
+			<br/>
+			<br/>
+
+				<div>
+				Copyright &copy; <a href="http://www.sjsu.edu/"> San Jose State </a>
+				</div>
+			</div>
+		</div>
+	</div>
+	</body>
+
+</html>
